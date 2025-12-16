@@ -45,6 +45,14 @@ INSTALLED_APPS = [
 ]
 ```
 
+If you want to work with the nightly builds, please install it from Test PyPI as follows:
+
+```bash
+pip install -i https://test.pypi.org/simple/ django-tasks-cloud
+```
+
+The CD pipeline automatically publishes to Test PyPI on every commit to the `main` branch. Production releases are published to the official PyPI repository on every tagged release.
+
 ## Configuration
 
 ### AWS: SNS
